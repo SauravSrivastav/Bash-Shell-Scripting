@@ -1,0 +1,39 @@
+LS is  Linux shell command that lists dirctory contents of files and data trees.
+
+1) ls [options] [file/directory name]
+   example:we want to see the content of Document directory.
+           ls Documents/
+
+2) ls / :This will list all the directories available at the root level.
+
+3)ls or ls ~ or ls /home/TestVM will give te same contents.
+
+4)ls Desktop/
+  ls ..    : one step back directory structure.
+  ls .. /.. or ls /    :root directory(folder)
+
+5)ls -l (Long List)->rights,user,size date,time
+                     user rights:drwxr-xr-x
+                     drwxr: (directory read write execute rights of the owner from which it has been logged from).
+                     xr:excute and read are the rights of the groups.
+                     x:others to execute ths directory.
+
+
+6)ls -a (Shows hidden files)
+
+7)la -al (show hidden files in a long list format).
+
+8)ls - lS (sorts the directory by there size)
+  ls -alS
+
+9) list something for which we know the extension:
+   ls Documents have test.cs test.html
+   ls Documents/*.html (so this means I want to search all the fles which ends with extension html)     
+10 ls Documents/*.* (all the files all the extension and all the names)
+
+11)ls -lS > out.txt (to save the o/p in a file).
+
+12)ls -d */  It will list out all the directories(folder), will not displays files.
+
+13)man ls :(man is a dictionay kind of a thing)
+   q to exit

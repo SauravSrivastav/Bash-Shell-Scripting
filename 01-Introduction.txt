@@ -1,0 +1,28 @@
+Shell: The shell is a program that big command from the keyboard and gives them to the operating system to perform.
+
+Command Line Interface(CLI)/Shell 
+
+Terminal: A Terminal is a tool which you can use to pass your shell commands.This is a program that opens a windows and lets you interact with the shell.
+
+
+How to open Terminal: ctrl + alt + t.
+
+
+Question:What is file system?
+Answer:Directories(Folders in windows)
+
+root is the folder where everything resides.
+
+
+
+***********************************************************************************************************************************************************************
+
+PWD:Present Working Directory
+This shows you in which directory you are currently in.
+
+pwd
+home/username
+
+Root Directory: cd / -> pwd : we are in the root directory. ( / )
+
+List: ls 
